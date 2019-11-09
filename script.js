@@ -1,4 +1,54 @@
+  $('#logo').on('click or keypress', function(event) {
+    $('html, body').animate({
+      scrollTop: $(".hero").offset().top - 10
+    }, 300);
+  })
 
+  $('#about-button, .arrow').on('click or keypress', function(event) {
+    $('html, body').animate({
+      scrollTop: $("#about-me").offset().top - 10
+    }, 300);
+  })
+  
+  $('#portfolio-button').on('click or keypress', function(event) {
+    $('html, body').animate({
+      scrollTop: $("#portfolio").offset().top - 10
+    }, 300);
+  })
+
+  $('#skills-button').on('click or keypress', function(event) {
+    $('html, body').animate({
+      scrollTop: $("#skills").offset().top - 10
+    }, 300);
+  })
+  
+  $('#contact-button').on('click or keypress', function(event) {
+    $('html, body').animate({
+      scrollTop: $("#contact").offset().top - 10
+    }, 300);
+  })
+  
+  $('.email').on('click or keypress', event => {
+    window.open('mailto:tsputzke@gmail.com', '_blank');
+  })
+  
+  $('.linkedin').on('click or keypress', event => {
+    window.open('https://www.linkedin.com/in/timothy-putzke-0534b4a8/', '_blank');
+  })
+  
+  $('.github').on('click or keypress', event => {
+    window.open('https://github.com/tsputzke', '_blank');
+  })
+  
+  // Portfolio
+  
+  $('.cultivate-img').on('click or keypress', event => {
+    window.open('https://tsputzke-cultivate-app.now.sh/', '_blank');
+  })
+  
+  $('.booksplorer-img').on('click or keypress', event => {
+    window.open('https://tsputzke.github.io/Booksplorer/', '_blank');
+  })
 
 // Hide Header on on scroll down
 var didScroll;

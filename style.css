@@ -448,6 +448,27 @@ a { color: black; text-decoration: none; }
     font-size: 20px;
   }
 
+  #linkedIn,
+  #github,
+  #email {
+    transition: 0.3s ease;
+  }
+
+  #linkedIn:hover {
+    cursor: pointer;
+    color:#c53211;
+  }
+
+  #github:hover {
+    cursor: pointer;
+    color:#c53211;
+  }
+
+  #email:hover {
+    cursor: pointer;
+    color:#c53211;
+  }
+
   /* About me */
 
   #portrait {
@@ -543,5 +564,11 @@ a { color: black; text-decoration: none; }
 
   #icon-menu {
     width: 50%;
+  }
+
+  /* Footer */
+
+  footer {
+    margin-top: 200px;
   }
 }
