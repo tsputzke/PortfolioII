@@ -37,17 +37,17 @@
       </section>
       <section role="aboutMe" id="about-me" class="primary">
           <img src="images/portfoliophoto.png" alt="self-portrait" id="portrait">
-          <div>
+          <div id="about-div">
             <h2>< About Me ></h2>
             <hr>
             <p>I am passionate about creating intuitive designs, and discovering eloquent solutions to technical problems.
             </br></br> 
-            In my free time I may be found with my hands in the dirt. I especially enjoy growing native orchids.
+            In my free time you might find me with my hands in the dirt. I especially enjoy growing native orchids.
             </p>
           </div>
       </section>
       <section role="portfolio" id="portfolio" class="primary">
-        <h2>Projects</h2>
+        <h2 class="underline">Projects</h2>
         <section id="cultivate">
           <div class='portfolio-wrap'>
             <img src="images/Cultivate-ScreenshotMockup.jpg" alt="screenshot of Cultivate App" class="portfolio-photo cultivate-img">
@@ -70,23 +70,25 @@
         </section>
         <hr>
         <section id="booksplorer">
-            <h3>Booksplorer</h3>
             <div class='portfolio-wrap'>
               <img src="images/Screen Shot - BookApp- Macbook.png" alt="screenshot of booksplorer application" class="portfolio-photo booksplorer-img">
+            </div>
+              <div class="project-info">
+                <h3>Booksplorer</h3>
+                <p>Create a personalized reading list based on your favorite books. Just enter three of your favorite titles to get started.</p> 
+              </br>
+              <h4>Technologies used:</h4>
+              <ul class="technology-used-icons half-height">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+              </ul>
             </div>     
-            <p>Create a personalized reading list based on your favorite books. Just enter three of your favorite titles to get started.</p> 
-            </br>
-            <h4>Technologies used:</h4>
-            <ul class="technology-used-icons half-height">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-            </ul>
           </section>
       </section>
       <section role="contact" id="skills" class="primary">
-          <h2>Skills</h2>
+          <h2 class="underline">Skills</h2>
           <div class="skills-div">
             <figure class="skill">
               <i class="devicon-html5-plain-wordmark colored"></i>
@@ -119,17 +121,27 @@
           </div>
       </section>
       <section role="contact" id="contact" class="primary">
-        <h2>Contact Me</h2>
-        <p>Feel free to <span class="red">reach out!</span> I love connecting to discuss current projects, collaborate, or answer any questions. I truly enjoy helping people, and making great applications.</p>
+        <h2 class="underline">Contact Me</h2>
         <div role="icon-menu" id="icon-menu">
-            <ul id="menu-icons">
-              <li id="email"><i class="fas fa-envelope"></i></li>
-              <li id="linkedIn"><i class="fab fa-linkedin"></i></li>
-              <li id="github"><i class="fab fa-github"></i></li>
-            </ul>
-          </div>
+          <figure>
+              <i id="linkedIn" class="fab fa-linkedin"></i>
+            <figcaption>LinkedIn</figcaption>
+          </figure>
+          <figure>
+              <i id="github" class="fab fa-github"></i>
+            <figcaption>Github</figcaption>
+          </figure>
+          <figure>
+              <i id="email" class="fas fa-envelope"></i>
+            <figcaption>Email</figcaption>
+          </figure>
+        </div>
+        <p>I look forward to hearing from you!</p>
       </section>
     </main>
+    <footer>
+      <p>2019 Timothy Putzke</p>
+    </footer>
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
