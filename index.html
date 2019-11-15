@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152600610-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-152600610-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -48,7 +57,7 @@
           </div>
       </section>
       <section role="portfolio" id="portfolio" class="primary">
-        <h2 class="underline">Projects</h2>
+        <h2 class="underline">< Projects ></h2>
         <section id="cultivate">
           <div class="portfolio-image">
             <div class='portfolio-wrap'>
@@ -69,6 +78,10 @@
               <li>Express</li>
               <li>PostgreSQL</li>
             </ul>
+            <div class='project-anchors'>
+              <a id="cultivate-demo">Demo</a>
+              <a id="cultivate-repo">Repo</a>
+            </div>  
           </div>
         </section>
         <hr>
@@ -89,11 +102,15 @@
                 <li>JavaScript</li>
                 <li>jQuery</li>
               </ul>
-            </div>     
+              <div class='project-anchors'>
+                <a id="booksplorer-demo">Demo</a>
+                <a id="booksplorer-repo">Repo</a>
+              </div>   
+            </div>  
           </section>
       </section>
       <section role="contact" id="skills" class="primary">
-          <h2 class="underline">Skills</h2>
+          <h2 class="underline">< Skills ></h2>
           <div class="skills-div">
             <figure class="skill">
               <i class="devicon-html5-plain-wordmark colored"></i>
@@ -138,7 +155,10 @@
           </div>
       </section>
       <section role="contact" id="contact" class="primary">
-        <h2 class="underline">Contact Me</h2>
+        <h2 class="underline">< Contact Me ></h2>
+        <div class="contact-form">
+          <div id="wufoo-z1tskhny0em6xme"> Fill out my <a href="https://tsputzke.wufoo.com/forms/z1tskhny0em6xme">online form</a>. </div> <script type="text/javascript"> var z1tskhny0em6xme; (function(d, t) { var s = d.createElement(t), options = { 'userName':'tsputzke', 'formHash':'z1tskhny0em6xme', 'autoResize':true, 'height':'517', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z1tskhny0em6xme = new WufooForm(); z1tskhny0em6xme.initialize(options); z1tskhny0em6xme.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+        </div>
         <div role="icon-menu" id="icon-menu">
           <figure>
               <i id="linkedIn" class="fab fa-linkedin linkedin"></i>
