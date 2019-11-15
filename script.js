@@ -42,12 +42,20 @@
   
   // Portfolio
   
-  $('.cultivate-img').on('click or keypress', event => {
+  $('.cultivate-img, #cultivate-demo').on('click or keypress', event => {
     window.open('https://tsputzke-cultivate-app.now.sh/', '_blank');
   })
+
+  $('#cultivate-repo').on('click or keypress', event => {
+    window.open('https://github.com/tsputzke/cultivate-app', '_blank');
+  })
   
-  $('.booksplorer-img').on('click or keypress', event => {
+  $('.booksplorer-img, #booksplorer-demo').on('click or keypress', event => {
     window.open('https://tsputzke.github.io/Booksplorer/', '_blank');
+  })
+
+  $('#booksplorer-repo').on('click or keypress', event => {
+    window.open('https://github.com/tsputzke/Booksplorer', '_blank');
   })
 
 // Hide Header on on scroll down
