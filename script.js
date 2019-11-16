@@ -1,30 +1,12 @@
   $('#logo').on('click or keypress', function(event) {
     $('html, body').animate({
-      scrollTop: $(".hero").offset().top - 10
+      scrollTop: $(".hero")
     }, 300);
   })
 
-  $('#about-button, .arrow').on('click or keypress', function(event) {
+  $('.arrow').on('click or keypress', function(event) {
     $('html, body').animate({
       scrollTop: $("#about-me").offset().top - 10
-    }, 300);
-  })
-  
-  $('#portfolio-button').on('click or keypress', function(event) {
-    $('html, body').animate({
-      scrollTop: $("#portfolio").offset().top - 10
-    }, 300);
-  })
-
-  $('#skills-button').on('click or keypress', function(event) {
-    $('html, body').animate({
-      scrollTop: $("#skills").offset().top - 10
-    }, 300);
-  })
-  
-  $('#contact-button').on('click or keypress', function(event) {
-    $('html, body').animate({
-      scrollTop: $("#contact").offset().top - 10
     }, 300);
   })
   
