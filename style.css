@@ -445,12 +445,18 @@ a { color: black; text-decoration: none; }
   }
 
   #contact-buttons button:hover {
-    background-color: #bac4cf;
+    /* background-color: #bac4cf; */
+    color: #c53211;
+    font-size: 22.3px;
     cursor: pointer;
   }
 
   .fa-linkedin {
     color: #34495E;
+  }
+
+  .fa-github {
+    color: black;
   }
 
   .fa-envelope {
