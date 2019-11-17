@@ -507,6 +507,10 @@ a { color: black; text-decoration: none; }
     padding: 20px;
   }
 
+  #about-div h2 {
+    text-align: center;
+  }
+
   /* Portfolio */
 
   #portfolio ul {
