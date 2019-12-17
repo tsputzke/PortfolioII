@@ -6,7 +6,7 @@
 
   $('.arrow').on('click or keypress', function(event) {
     $('html, body').animate({
-      scrollTop: $("#about-me").offset().top - 20
+      scrollTop: $("#about-me").offset().top - 10
     }, 300);
   })
 
