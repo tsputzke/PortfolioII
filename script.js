@@ -50,7 +50,15 @@
   })
   
   // Portfolio
-  
+  $('.brickfulBuilds-img, #brickfulBuilds-demo').on('click or keypress', event => {
+    window.open('https://bricksandbuilds.tsputzke.now.sh/', '_blank');
+  })
+
+  $('#brickfulBuilds-repo').on('click or keypress', event => {
+    window.open('https://github.com/tsputzke/bricks_and_builds', '_blank');
+  })
+
+
   $('.cultivate-img, #cultivate-demo').on('click or keypress', event => {
     window.open('https://tsputzke-cultivate-app.now.sh/', '_blank');
   })
