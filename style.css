@@ -250,17 +250,17 @@ h3 {
 .project-anchors a{
   margin: 0 5%; 
   background-color: #F4CC6D;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   padding: 5px 15px; 
   border: 1px solid black; 
-  border-radius: 15px; 
+  border-radius: 5px; 
 }
 
 .project-anchors a:hover {
   cursor: pointer;
-  background-color: #c53211;
-  opacity: 80%; 
-  color: white; 
+  -moz-box-shadow: 0 0 10px rgba(33,33,33,.7); 
+  -webkit-box-shadow: 0 0 10px rgba(33,33,33,.7); 
+  box-shadow: 0 0 10px rgba(33,33,33,.7); 
 }
 
 .project-info {
@@ -442,14 +442,16 @@ a { color: black; text-decoration: none; }
     width: 125px;
     padding: 5px;
     margin: 5px;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
   }
 
   #contact-buttons button:hover {
-    /* background-color: #bac4cf; */
-    color: #c53211;
     font-size: 22.3px;
     cursor: pointer;
+
+    -moz-box-shadow: 0 0 10px rgba(33,33,33,.7); 
+    -webkit-box-shadow: 0 0 10px rgba(33,33,33,.7); 
+    box-shadow: 0 0 10px rgba(33,33,33,.7); 
   }
 
   .fa-linkedin {
