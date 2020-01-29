@@ -475,27 +475,15 @@ a { color: black; text-decoration: none; }
     font-size: 20px;
   }
 
-  #linkedIn,
-  #github,
-  #email {
+  #icon-menu i {
     transition: 0.3s ease;
   }
 
-  #linkedIn:hover {
+  #icon-menu i:hover {
     cursor: pointer;
     color:#c53211;
   }
-
-  #github:hover {
-    cursor: pointer;
-    color:#c53211;
-  }
-
-  #email:hover {
-    cursor: pointer;
-    color:#c53211;
-  }
-
+  
   /* About me */
 
   #portrait {
